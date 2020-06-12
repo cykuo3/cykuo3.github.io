@@ -1,0 +1,100 @@
+---
+title: Git_learning
+published: true
+content: 《极客时间：玩转Git三剑客》
+---
+
+# git的特点
+- 存储能力和性能
+- 开源
+- 备份简单
+- 离线操作（重要）
+- 容易定做工作流程
+
+# 配置user信息
+- 配置用户名`git config --global user.name 'XXXXXX'`
+- 配置邮箱`git config --local user.email 'XXXXX@XXXXX.com'`
+- 还有一个`--system`，不常用
+
+`--global`表示对当前用户，`--local`表示当前仓库有效（当前文件夹和当前文件夹的字文件夹）。`git config --list --global` 可以看当前配置
+
+# .git目录
+可以使用`git cat-file -t object` 和 `git cat-file -p object` 帮助我们查看对象的类型和值
+
+- HEAD表示当前指向的分支
+- config：`git config --local` 配置的信息
+- refs/：
+  - heads/：分支，内容是每个分支最后的commit对象
+  - tags/：标签，内容是标签对象
+- objects/：存放的都是对象，最主要的几种对象，tree，commit，blob，tag
+
+# git对象
+## tag
+没什么内容，只是一个标签。内容包含一个commit对象。
+## commit
+内容包含一个tree，即当时的仓库快照。
+## tree
+表示commit那个时间点时，整个仓库的状态。内容包括对象（文件）和其他的tree（文件夹）。
+## blob
+具体的文件。
+
+注：git认为，相同的两个文件，在仓库中不需要保留两份。所以一次新的提交并不会把所有文件double一份，只有改动的文件会创建新的。
+
+# detache head
+分离头指针，不基于任何分支的commit。具体的操作为 `git checkout <commit>`。可以分离出头指针进行开发。如果想要保留就绑定一个分支；如果不要，就直接checkout到另外一个分支。
+
+# HEAD
+HEAD大部分情况指向分支，分离头状态下指向commit，而分支也可以由commit来表示。所以HEAD就指向一个commit。所以有一个HEAD的特殊用法：
+- git diff HEAD HEAD^^
+- git diff HEAD HEAD~2 
+
+都表示当前状态和两次提交之前的状态进行比较。
+
+# 常规场景中的基操
+## 删除分支
+`git branch -d <branchName>` 如果当前分支没有提交，可以删除。
+
+如果有提交没有merge，就使用：`git branch -D <branchName>`。
+
+## 修改提交信息
+修改最近一次的：`git commit --amend`
+修改历史的：`git rebase -i <commit>`
+
+在交互中使用r命令，即reword～
+
+commit是要修改的commit的parent，即前一次commit.
+## 压缩连续commit
+还是使用rebase。在交互命令中用s命令，即squash。
+## 压缩不连续的commit
+三次提交，如果想要合并1和3，还是使用rebase。然后手动调整顺序后用pick和squach,如下：
+```sh
+pick 3
+squash 1
+pick 2
+```
+就可以实现合并不连续的commit。需要注意的是，这种方式很容易出现冲突，如果2和1修改了相同的文件，就会出现冲突。所以最好在确保文件修改相对隔离的情况下进行合并
+## 比较暂存区和HEAD
+`git diff --chched`
+## 比较工作区和暂存区
+`git diff`
+## 丢弃暂存区的内容
+`git reset HEAD <file>` 同 `git reset <file>`，即使用HEAD覆盖暂存区
+## 丢弃工作区的内容
+`git checkout <file>`，即重新检出HEAD的意思，也就是使用HEAD的版本覆盖工作区的版本，实现了丢弃工作区的修改。
+## 回到历史的一个版本
+即移动头指针
+`git reset HEAD <commit>` 同 `git reset <commit>`
+
+可以跟`--hard` 或 `--soft` 或 `--mixed` 或 `--merge`,来表示对中间commit的执行策略。
+
+## 比较差异
+- `git diff <branch1> <branch2> --<file>` 比较分支
+- `git diff <commit1> <commit2> --<file>` 比较comiit
+
+其实比较分支本质上还是比较对应分支的最后一个commit。
+
+## 暂存
+- `git stash save <stashName>`
+- `git stash pop`
+- `git stash list`
+- `git stash clear`
