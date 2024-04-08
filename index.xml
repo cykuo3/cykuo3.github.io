@@ -6,41 +6,43 @@
     <description>Recent content on cyk.blob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+    <managingEditor>chengykuo@163.com (chengyuankuo)</managingEditor>
+    <webMaster>chengykuo@163.com (chengyuankuo)</webMaster>
     <lastBuildDate>Mon, 08 Apr 2024 16:08:23 +0800</lastBuildDate>
     <atom:link href="https://cykuo3.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MyBlob</title>
-      <link>https://cykuo3.github.io/post/myblob/</link>
-      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
-      <guid>https://cykuo3.github.io/post/myblob/</guid>
-      <description>first</description>
-    </item>
-    <item>
-      <title>MyBlob</title>
       <link>https://cykuo3.github.io/post/myblob2/</link>
-      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
+      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate><author>chengykuo@163.com (chengyuankuo)</author>
       <guid>https://cykuo3.github.io/post/myblob2/</guid>
       <description>first</description>
     </item>
     <item>
       <title>MyBlob</title>
       <link>https://cykuo3.github.io/post/myblob3/</link>
-      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
+      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate><author>chengykuo@163.com (chengyuankuo)</author>
       <guid>https://cykuo3.github.io/post/myblob3/</guid>
       <description>first</description>
     </item>
     <item>
       <title>MyBlob</title>
       <link>https://cykuo3.github.io/post/myblob4/</link>
-      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
+      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate><author>chengykuo@163.com (chengyuankuo)</author>
       <guid>https://cykuo3.github.io/post/myblob4/</guid>
       <description>first</description>
     </item>
     <item>
       <title>MyBlob</title>
       <link>https://cykuo3.github.io/post/myblob5/</link>
-      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
+      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate><author>chengykuo@163.com (chengyuankuo)</author>
       <guid>https://cykuo3.github.io/post/myblob5/</guid>
+      <description>first</description>
+    </item>
+    <item>
+      <title>MyBlob</title>
+      <link>https://cykuo3.github.io/post/myblob/</link>
+      <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate><author>chengykuo@163.com (chengyuankuo)</author>
+      <guid>https://cykuo3.github.io/post/myblob/</guid>
       <description>first</description>
     </item>
   </channel>

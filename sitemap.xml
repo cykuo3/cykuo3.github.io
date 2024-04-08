@@ -5,9 +5,6 @@
     <loc>https://cykuo3.github.io/</loc>
     <lastmod>2024-04-08T16:08:23+08:00</lastmod>
   </url><url>
-    <loc>https://cykuo3.github.io/post/myblob/</loc>
-    <lastmod>2024-04-08T16:08:23+08:00</lastmod>
-  </url><url>
     <loc>https://cykuo3.github.io/post/myblob2/</loc>
     <lastmod>2024-04-08T16:08:23+08:00</lastmod>
   </url><url>
@@ -23,8 +20,15 @@
     <loc>https://cykuo3.github.io/post/</loc>
     <lastmod>2024-04-08T16:08:23+08:00</lastmod>
   </url><url>
-    <loc>https://cykuo3.github.io/categories/</loc>
+    <loc>https://cykuo3.github.io/tags/java/</loc>
+    <lastmod>2015-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cykuo3.github.io/post/myblob/</loc>
+    <lastmod>2015-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cykuo3.github.io/tags/</loc>
+    <lastmod>2015-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cykuo3.github.io/categories/</loc>
   </url>
 </urlset>
