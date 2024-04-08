@@ -6,63 +6,42 @@
     <description>Recent content on cyk.blob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 08 Apr 2024 16:46:48 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 16:08:23 +0800</lastBuildDate>
     <atom:link href="https://cykuo3.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blob6</title>
-      <link>https://cykuo3.github.io/post/blob6/</link>
-      <pubDate>Mon, 08 Apr 2024 16:46:48 +0800</pubDate>
-      <guid>https://cykuo3.github.io/post/blob6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blob5</title>
-      <link>https://cykuo3.github.io/post/blob5/</link>
-      <pubDate>Mon, 08 Apr 2024 16:46:45 +0800</pubDate>
-      <guid>https://cykuo3.github.io/post/blob5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blob56</title>
-      <link>https://cykuo3.github.io/post/blob56/</link>
-      <pubDate>Mon, 08 Apr 2024 16:46:43 +0800</pubDate>
-      <guid>https://cykuo3.github.io/post/blob56/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blob4</title>
-      <link>https://cykuo3.github.io/post/blob4/</link>
-      <pubDate>Mon, 08 Apr 2024 16:46:40 +0800</pubDate>
-      <guid>https://cykuo3.github.io/post/blob4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blob3</title>
-      <link>https://cykuo3.github.io/post/blob3/</link>
-      <pubDate>Mon, 08 Apr 2024 16:46:37 +0800</pubDate>
-      <guid>https://cykuo3.github.io/post/blob3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Second</title>
-      <link>https://cykuo3.github.io/post/second/</link>
-      <pubDate>Mon, 08 Apr 2024 16:42:12 +0800</pubDate>
-      <guid>https://cykuo3.github.io/post/second/</guid>
-      <description>第二个示例博客文件</description>
-    </item>
-    <item>
-      <title>First</title>
-      <link>https://cykuo3.github.io/post/first/</link>
+      <title>MyBlob</title>
+      <link>https://cykuo3.github.io/post/myblob/</link>
       <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
-      <guid>https://cykuo3.github.io/post/first/</guid>
+      <guid>https://cykuo3.github.io/post/myblob/</guid>
       <description>first</description>
     </item>
     <item>
-      <title>About</title>
-      <link>https://cykuo3.github.io/about/</link>
-      <pubDate>Mon, 08 Apr 2024 15:13:33 +0800</pubDate>
-      <guid>https://cykuo3.github.io/about/</guid>
-      <description>正文内容</description>
+      <title>MyBlob</title>
+      <link>https://cykuo3.github.io/post/myblob2/</link>
+      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
+      <guid>https://cykuo3.github.io/post/myblob2/</guid>
+      <description>first</description>
+    </item>
+    <item>
+      <title>MyBlob</title>
+      <link>https://cykuo3.github.io/post/myblob3/</link>
+      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
+      <guid>https://cykuo3.github.io/post/myblob3/</guid>
+      <description>first</description>
+    </item>
+    <item>
+      <title>MyBlob</title>
+      <link>https://cykuo3.github.io/post/myblob4/</link>
+      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
+      <guid>https://cykuo3.github.io/post/myblob4/</guid>
+      <description>first</description>
+    </item>
+    <item>
+      <title>MyBlob</title>
+      <link>https://cykuo3.github.io/post/myblob5/</link>
+      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
+      <guid>https://cykuo3.github.io/post/myblob5/</guid>
+      <description>first</description>
     </item>
   </channel>
 </rss>
