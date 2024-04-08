@@ -6,7 +6,21 @@
     <description>Recent content in Posts on cyk.blob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 16:42:12 +0800</lastBuildDate>
     <atom:link href="https://cykuo3.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second</title>
+      <link>https://cykuo3.github.io/post/second/</link>
+      <pubDate>Mon, 08 Apr 2024 16:42:12 +0800</pubDate>
+      <guid>https://cykuo3.github.io/post/second/</guid>
+      <description>第二个示例博客文件</description>
+    </item>
+    <item>
+      <title>First</title>
+      <link>https://cykuo3.github.io/post/first/</link>
+      <pubDate>Mon, 08 Apr 2024 16:08:23 +0800</pubDate>
+      <guid>https://cykuo3.github.io/post/first/</guid>
+      <description>first</description>
+    </item>
   </channel>
 </rss>
